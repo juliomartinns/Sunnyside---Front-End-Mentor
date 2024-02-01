@@ -1,0 +1,36 @@
+.footer-bg {
+  background-color: #90d4c5;
+}
+
+.footer-container {
+  box-sizing: border-box;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer-logo {
+  margin: 0 auto 40px auto;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.footer-generic {
+  color: hsl(168, 34%, 41%);
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.footer-generic:hover {
+  color: #fff;
+}
+
+.footer-media {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
