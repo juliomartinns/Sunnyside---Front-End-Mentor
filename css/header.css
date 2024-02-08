@@ -18,6 +18,7 @@
 
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -51,7 +52,6 @@
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
-  position: relative;
 }
 
 .header-title h1 {
@@ -67,6 +67,17 @@
 }
 
 .header-title img {
-  position: absolute;
-  left: 705px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .header-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-title h1 {
+    font-size: 48px;
+  }
 }

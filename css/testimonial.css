@@ -54,3 +54,9 @@ span {
   font-size: 16px;
   color: hsl(210, 4%, 67%);
 }
+
+@media (max-width: 1100px) {
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+}
